@@ -97,17 +97,36 @@
 }
 
 
-.information {
+.information{
     display: flex;
     justify-content: center;
 }
+
+.information_wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    height:600px;
+}
 .information_title {
+    display: flex;
+    justify-content: center;
     font-weight: extra-bold;
     color:#1F2937;
     font-size: 36px;
-    width: 100%;
+    margin-top: 30px;
 }
-
-.info-boxes {
+.info_box {
     display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    
+}
+.box {
+    height: 180px;
+    width: 180px;
+    color: #fff;
+    padding: 10px;
+    border: solid 3px #3882f6;
+    border-radius: 25px;
 }
