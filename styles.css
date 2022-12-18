@@ -10,6 +10,11 @@
     background-color: #1F2937;
     height: 120px;
     
+    
+}
+.nav a {
+    text-decoration: none;
+    color:#E5E7EB;
 }
 
 .nav_wrapper {
@@ -32,7 +37,7 @@
     color: #E5E7EB;
     display: flex;
     justify-content: space-around;
-    width: 200px;   
+    width: 200px;  
 }
 
 .hero {
